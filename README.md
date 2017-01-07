@@ -34,7 +34,7 @@ The files contained this repo and their purpose in the generating the model are 
 
   **4.process_numeric.R**- Processes the numerical features. Set NA values equal to zero and add an offset of +2 to true numeric values so that models can differentiate between the two.
 
-  ##### Feature Engineering
+##### Feature Engineering
 
   **5.generate_leak_feature.R**- One of the biggest predictors for a part being a failure is if it entered the production line near another part that failed.  The training and test data are randomly split from data collected over a period of time. A part in the training data may be known to have failed.  We can than create features to label any parts in the test data that entered the production line near a known failure as being a higher risk of failure.  This was identified as a possible "data leak" in the competition.  See [here for more info](https://www.kaggle.com/mmueller/bosch-production-line-performance/road-2-0-4). This script extracts these leak features.
 

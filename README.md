@@ -8,7 +8,7 @@ Note: I assembled these file several weeks after the end of the competition.  I 
 ## Data
 The goal of the competition was to predict which parts would be failures on the production based upon anonymized numerical, categorical and date data supplied by Bosch.  The data is publicly available [here](https://www.kaggle.com/c/bosch-production-line-performance/data).
 
-The data is quite unbalanced with failures being a relatively rare event on the production line.  Therefore, models generated for the competition were evaluated using the [Matthews Correlation Coefficient]([Matthews Correlation Coefficient]) (MCC).
+The data is quite unbalanced with failures being a relatively rare event on the production line.  Therefore, models generated for the competition were evaluated using the [Matthews Correlation Coefficient](https://en.wikipedia.org/wiki/Matthews_correlation_coefficient) (MCC).
 
 
 ## Dependancies
